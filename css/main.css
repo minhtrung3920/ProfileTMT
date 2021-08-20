@@ -1,0 +1,190 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: floralwhite;
+}
+/* ------------------------------------------scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+/* track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 255, 255);
+    border-radius: 15px;
+}
+/* handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(209, 23, 60);
+    /* border-radius: 15px; */
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7c2020;
+}
+/* ------------------------------------------end scroll bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container {
+    position: relative;
+    width: 350px;
+    height: 480px;
+    background: #3c3c3c;
+    box-shadow: 0 20px 25px 20px rgba(146, 145, 145, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    z-index: -1;
+    font-size: .9rem;
+    border-radius: 30px;
+}
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    background: url(/privacy/images/jerryr.jpg) 0 1px / cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.layer {
+    position: absolute;
+    top: 21%;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    transition: 3s ease;
+    z-index: -1;
+    overflow: hidden;
+}
+.details {
+    text-align: center;
+    color: #fff;
+    transition: .8s ease;
+}
+
+.vanlang{
+    width: 105px;
+    height: 105px;
+    background: url(/privacy/images/vanlang.png);
+    background-size: 105px;
+}
+
+.skills {
+    font-size: 1.5rem;
+}
+.skills i {
+    margin: 0 .3rem;
+    opacity: 5;
+    transition: .5s ease-in-out;
+}
+.fa-facebook {
+    color: #4c6ef5;
+}
+.fa-instagram {
+    color: #FF3333;
+}
+.fa-github {
+    color: rgb(255, 255, 255);
+}
+.fa-envelope {   
+    color: #F5E356;
+}
+
+/* ---------------------------------------------start button */
+.btn a{
+    display: block;
+    text-decoration: none;
+    width: 140px;
+    height: 55px;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: .4s ease;
+    /* gradient color */
+    margin-left: 50%;
+    margin-top: 20%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    /* text-transform: uppercase; */
+    background-size: 400%; 
+    z-index: 1;
+}
+.btn a:hover {
+    animation: animate 2s linear infinite;
+}
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+.btn a:before{
+    display: contents;
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1px;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 35px;
+    /* filter: blur(30px); */
+    /* opacity: 0;
+    transition: 0.5s; */
+}
+/* .btn a:hover:before{
+    filter: blur(30px);
+    opacity: 1s;
+    animation: animate 2s linear infinite;
+} */
+/* ---------------------------------------------end button */
+
+.container:hover .layer {
+    height: 100%;
+}
+.container:hover .details {
+    color: #040404;
+    display: contents;
+    translate: 1s;
+}
+.container:hover .btn a {
+    border-color: #040404;
+    color: #040404;
+}
+.container:hover .skills {
+    opacity: 1;
+}
+.container:hover .skills .fa-github {
+    color: black;
+}
+
+/* ------------------------------------------footer */
+.footer {
+    position: relative;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 25px 30px 40px 35px;
+    /* height: 100%; */
+    top: 100vh;
+}
