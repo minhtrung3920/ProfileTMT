@@ -54,7 +54,7 @@ body {
 .profile-pic {
     width: 100px;
     height: 100px;
-    background: url(/images/swimbear.jpg) 0 1px / cover;
+    background: url(../images/swimbear.jpg) 0 1px / cover;
     border-radius: 50%;
     border: 3px solid #fff;
 }
@@ -78,7 +78,7 @@ body {
 .vanlang{
     width: 105px;
     height: 105px;
-    background: url(/images/vanlang.png);
+    background: url(../images/vanlang.png);
     background-size: 105px;
 }
 
