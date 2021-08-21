@@ -1,4 +1,4 @@
-body {
+body .section-slide{
     width: 100%;
     display: flex;
     margin: auto;
@@ -6,7 +6,7 @@ body {
     height: 100vh;
     background-color: floralwhite;
 }
-/* ------------------------------------------scroll bar */
+/* ----------------------------------------------------------scroll bar */
 /* width */
 ::-webkit-scrollbar {
     width: 15px;
@@ -27,7 +27,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #7c2020;
 }
-/* ------------------------------------------end scroll bar */
+/* --------------------------------------------------------------end scroll bar */
 
 .swiper-container {
     width: 100%;
@@ -118,7 +118,7 @@ body {
     }
 }
 
-/* ------------------------------------------footer */
+/* ------------------------------------------------------------footer */
 .footer-section {
     position: absolute;
     top: 100vh;
@@ -133,4 +133,71 @@ body {
     margin: 0;
     /* height: 100%; */
     /* top: 100vh; */
+}
+
+/* ------------------------------------------------------------turn back */
+.turn-back a{
+    position: absolute;
+    /* text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    font-size: 16px;
+    line-height: 50px;
+} */
+    display: block;
+    text-decoration: none;
+    width: 140px;
+    height: 55px;
+    bottom: 15px;
+    top: 625px;
+    margin-left: 150px;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: .4s ease;
+    /* gradient color */
+    /* margin-left: 20%;
+    margin-top: -20%; */
+    transform: translate(-50%, -50%);
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    /* text-transform: uppercase; */
+    background-size: 400%; 
+    z-index: 1;
+}
+/* ------------------------------------------------------------continue to */
+.continue-to a {
+    position: absolute;
+    /* text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    font-size: 16px;
+    line-height: 50px;
+} */
+    display: block;
+    text-decoration: none;
+    width: 140px;
+    height: 55px;
+    bottom: 15px;
+    top: 625px;
+    margin-left: 550px;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: .4s ease;
+    /* gradient color */
+    /* margin-left: 20%;
+    margin-top: -20%; */
+    transform: translate(-50%, -50%);
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    /* text-transform: uppercase; */
+    background-size: 400%; 
+    z-index: 1;
 }
