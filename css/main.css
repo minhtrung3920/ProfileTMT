@@ -123,15 +123,15 @@ body {
     border-top-left-radius: 15px;
     text-align: center;
     line-height: 50px;
-    font-size: 16px;
-    color: #fff;
+    font-size: 18px;
+    color: floralwhite;
     letter-spacing: 2px;
     transition: .4s ease;
     /* gradient color */
     margin-left: 50%;
     margin-top: 20%;
     transform: translate(-50%, -50%);
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background: linear-gradient(90deg, #145DA0, #2E8BC0, #0C2D48, #B1D4E0, #66D2D6, #145DA0);
     /* text-transform: uppercase; */
     background-size: 400%; 
     z-index: 1;
@@ -141,7 +141,7 @@ body {
 }
 @keyframes animate {
     0% {
-        background-position: 0%;
+        background-position: 1%;
     }
     100% {
         background-position: 100%;
