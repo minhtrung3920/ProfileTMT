@@ -1841,7 +1841,9 @@ readers do not read off random characters that represent icons */
   content: "\f1d2"; }
 
 .fa-github:before {
-  content: "\f09b"; }
+  content: "\f09b";
+  font-size: 51px;
+}
 
 .fa-github-alt:before {
   content: "\f113"; }

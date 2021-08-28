@@ -40,7 +40,7 @@ body {
     position: relative;
     width: 350px;
     height: 480px;
-    background: #2e2e2e;
+    background: #353232;
     box-shadow: 0 20px 25px 20px rgba(146, 145, 145, 0.6);
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@ body {
     transition: .5s ease-in-out;
 }
 .fa-facebook {
-    color: #4c6ef5;
+    color: #284bd6;
 }
 /* .fa-instagram {
     color: #FF3333;
@@ -117,21 +117,23 @@ body {
     text-decoration: none;
     width: 140px;
     height: 55px;
+    margin-left: 50%;
+    margin-top: 25%;
     border: 1px solid #fff;
     /* border-radius: 35px; */
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 50px;
     font-size: 18px;
     color: floralwhite;
     letter-spacing: 2px;
     transition: .4s ease;
     /* gradient color */
-    margin-left: 50%;
-    margin-top: 20%;
     transform: translate(-50%, -50%);
-    background: linear-gradient(90deg, #145DA0, #2E8BC0, #0C2D48, #B1D4E0, #66D2D6, #145DA0);
+    background: linear-gradient(90deg, #B7AC44, #FF8300, #FFF3D9, #DF362D, #FDB750, #B7AC44);
+    /* background: linear-gradient(90deg, #145DA0, #2E8BC0, #0C2D48, #B1D4E0, #66D2D6, #145DA0); */
     /* text-transform: uppercase; */
     background-size: 400%; 
     z-index: 1;
