@@ -201,3 +201,46 @@ body {
     /* height: 100%; */
     top: 100vh;
 }
+
+/* --------------------------------------------------------------pre-loader */
+.pre-loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background:#040404; */
+    transition: 1s;
+}
+.pre-loader::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #000;
+    transition: 3s;
+    border-radius: 25px;
+}
+.pre-loader.display::before {
+    background: floralwhite;
+    left: -50%;
+    border-radius: 25px;
+    margin-left: -25%;
+}
+.pre-loader::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #000;
+    transition: 3s;
+    border-radius: 25px;
+}
+.pre-loader.display::after {
+    right: -50%;
+    background: floralwhite;
+    border-radius: 25px;
+    margin-right: -25%;
+}
