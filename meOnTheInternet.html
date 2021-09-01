@@ -28,8 +28,42 @@
         })
     </script>
 
-<script id="_wauo43">var _wau = _wau || []; _wau.push(["colored", "4xvcll7dl4", "o43", "d9d9d9000000"]);</script><script async src="//waust.at/co.js"></script>
-
+<!-- <script id="_wau354">var _wau = _wau || []; _wau.push(["dynamic", "4xvcll7dl4", "354", "c4302bffffff", "small"]);</script><script async src="//waust.at/d.js"></script> -->
+    <!-- access times -->
+    <style>
+        .counter{
+        background-color:black;
+        color:gold;
+        font-weight:bold;
+        }
+    </style>
+    <!--This script downloaded from www.JavaScriptBank.com
+    Come to view and download over 2000+ free javascript at www.JavaScriptBank.com-->
+    <script>
+        expireDate = new Date
+        expireDate.setMonth(expireDate.getMonth()+6)
+        jcount = eval(cookieVal("pageCounter"))
+        jcount++
+        document.cookie = "pageCounter="+jcount+";expires=" + expireDate.toGMTString()
+                    
+        function cookieVal(cookieName) {
+        thisCookie = document.cookie.split("; ")
+        for (i=0; i<thisCookie.length; i++){
+            if (cookieName == thisCookie[i].split("=")[0]){
+                return thisCookie[i].split("=")[1]
+            }
+        }
+        return 0
+        }
+                    
+        function page_counter(){
+        // for (i=0;i<(7-jcount.toString().length);i++)
+        // for (i=0;i<(jcount.toString().length);i++)
+        // document.write('<span class="counter">0</span>')
+        for (y=0;y<(jcount.toString().length);y++)
+        document.write('<span class="counter">'+jcount.toString().charAt(y)+'</span>')
+        }        
+    </SCRIPT>
 
 </head>
 <body>
@@ -76,12 +110,10 @@
             <p> This website is inspired by the Internet <i class="fas fa-dragon" style="color: gold;"></i> <i class="fas fa-fire" style="color: rgb(235, 15, 59); rotate: 180deg;"></i> 
              Made by Trung's spirit of unlimited learning</p>
             <p> <i class="far fa-copyright"></i> All contents and copyright belong to TrinhMinhTrung 
-            <img src="images/1630484959.ico" style="width: 21px; margin-top: 6px;"> <br/><br/><br/></p> 
+            <img src="images/1630484959.ico" style="width: 21px; margin-top: 6px;"> <br/><br/></p> 
+            <b>You visited this page <SCRIPT>page_counter(jcount);</SCRIPT> time(s).</b> <br/><br/><br/>
         </div>
     </footer>
-
-
-
 </body>
 
 </html>
