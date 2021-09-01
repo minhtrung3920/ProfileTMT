@@ -121,19 +121,22 @@ body {
     margin-top: 25%;
     border: 1px solid #fff;
     /* border-radius: 35px; */
-    border-bottom-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
     border-color: black;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 50px;
     font-size: 18px;
-    color: floralwhite;
+    color: black;
     letter-spacing: 2px;
     transition: .4s ease;
     /* gradient color */
     transform: translate(-50%, -50%);
-    background: linear-gradient(70deg, #dfcf43, #FF8300, #FFF3D9, #DF362D, #FDB750, #dfcf43);
+    background: linear-gradient(70deg, #FFF3D9 -8%, #dfcf43, #FF8300, #FFF3D9, #DF362D, #FDB750, #dfcf43);
     /* background: linear-gradient(90deg, #145DA0, #2E8BC0, #0C2D48, #B1D4E0, #66D2D6, #145DA0); */
     /* text-transform: uppercase; */
     background-size: 400%; 
