@@ -133,18 +133,16 @@ body .section-slide{
     display: inline-block;
 }
 #turn-back a {
-    color: midnightblue;
-    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    font-weight: bolder;
     display: block;
     text-align: center;
-    border: 1px solid #000;
-    border-color: whitesmoke;
+    border: 1px solid whitesmoke;
     width: 145px;
     height: 50px;
     border-radius: 35px;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 50px;
     letter-spacing: 2px;
     background: linear-gradient(60deg, #FFF3D9, #dfcf43, #FF8300, #FFF3D9);
@@ -156,14 +154,13 @@ body .section-slide{
     float: right;
 }
 .continue-to a {
-    color: midnightblue;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     font-weight: bolder;
     display: block;
     text-align: center;
-    border: 1px solid #000;
-    border-color: whitesmoke;
+    border: 1px solid whitesmoke;
     width: 145px;
     height: 50px;
     border-radius: 35px;
