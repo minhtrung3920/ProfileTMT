@@ -21,12 +21,13 @@
         <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> 
         from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
 
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <!-- pre-loader -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script type="text/javascript">
         $(window).on('load',function(){
             $('.pre-loader').addClass('display')
         })
-    </script>
+    </script> -->
 
     <!-- access page times -->
     <style>
@@ -75,6 +76,9 @@
     <div class="main-container">
         <div class="container">
              <!-- <div class="pre-loader"></div> -->
+             <div class="loader_bg">
+                 <div class="loader"></div>
+             </div>
             <div class="profile-pic">
             </div>
             <div class="layer">
@@ -114,7 +118,7 @@
         <div class="footer">
             <p> This website is inspired by the Internet <i class="fas fa-dragon" style="color: gold;"></i> <i class="fas fa-fire" style="color: rgb(235, 15, 59); rotate: 180deg;"></i> 
              Made by Trung's spirit of unlimited learning</p>
-            <p> <i class="far fa-copyright"></i> All contents and copyright belong to TrinhMinhTrung 
+            <p> &copy; All contents and copyright belong to TrinhMinhTrung 
             <img src="images/1630484959.ico" style="width: 21px; margin-top: 6px;"> <br/><br/></p> 
             <b>You visited this page <SCRIPT>page_counter(jcount);</SCRIPT> time(s)</b>
             <b style="float: right;">Visitors</b> <div id="sfc3943hmps17a12yan257dktfsqjz1j165" style="float: right;"></div> 
@@ -125,6 +129,14 @@
     <script type="text/javascript" src="https://counter10.stat.ovh/private/counter.js?c=3943hmps17a12yan257dktfsqjz1j165&down=async" async></script>
     <noscript><img src="https://counter10.stat.ovh/private/freecounterstat.php?c=3943hmps17a12yan257dktfsqjz1j165"></noscript>
     <!-- <noscript><a href="https://www.freecounterstat.com" title="page counter"><img src="https://counter10.stat.ovh/private/freecounterstat.php?c=3943hmps17a12yan257dktfsqjz1j165" border="0" title="page counter" alt="page counter"></a></noscript> -->
+
+    <!-- loading-bg -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
 </body>
 
 </html>
