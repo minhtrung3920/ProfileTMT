@@ -219,8 +219,8 @@ body {
     animation: animate 2s linear infinite;
 } */
 /* ---------------------------------------------end button */
-
-.container:hover .layer {
+/* ---------------------------------------------------------------------- hover */
+/* .container:hover .layer {
     height: 100%;
 }
 .container:hover .details {
@@ -237,7 +237,7 @@ body {
 }
 .container:hover .skills .fa-github {
     color: black;
-}
+} */
 
 /* ------------------------------------------footer */
 .footer {
