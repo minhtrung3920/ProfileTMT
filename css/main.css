@@ -43,7 +43,7 @@
         opacity: 0;
     }
 }
-
+/* ----------------------------------------------------------------------------------- */
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: floralwhite;
@@ -69,8 +69,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #7c2020;
 }
-/* ------------------------------------------end scroll bar */
-
+/* ------------------------------------------------------------end scroll bar */
 *{
     margin: 0;
     padding: 0;
@@ -218,26 +217,28 @@ body {
     opacity: 1s;
     animation: animate 2s linear infinite;
 } */
-/* ---------------------------------------------end button */
+/* --------------------------------------------------------------------end button */
 /* ---------------------------------------------------------------------- hover */
-/* .container:hover .layer {
-    height: 100%;
+@media (min-width: 1190px) {
+    .container:hover .layer {
+        height: 100%;
+    }
+    .container:hover .details {
+        color: #040404;
+        display: contents;
+        translate: 1s;
+    }
+    .container:hover .btn a {
+        border-color: whitesmoke;
+        color: black;
+    }
+    .container:hover .skills {
+        opacity: 1;
+    }
+    .container:hover .skills .fa-github {
+        color: black;
+    }
 }
-.container:hover .details {
-    color: #040404;
-    display: contents;
-    translate: 1s;
-}
-.container:hover .btn a {
-    border-color: whitesmoke;
-    color: black;
-}
-.container:hover .skills {
-    opacity: 1;
-}
-.container:hover .skills .fa-github {
-    color: black;
-} */
 
 /* ------------------------------------------footer */
 .footer {
