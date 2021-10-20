@@ -302,3 +302,43 @@ body .section-slide{
         border-radius: 5px;
     }
 }
+@media (min-width: 1200px) {
+    .skill-box > span:nth-child(2) {
+        float: right;
+        position: relative;
+        top: 0px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .skill-box > span:nth-child(2) {
+        float: right;
+        position: relative;
+        top: -20px;
+        right: -30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .skill-box > span:nth-child(2) {
+        float: right;
+        position: relative;
+        top: -20px;
+        right: -30px;
+    }
+}
+@media (max-width: 767px) {
+    .skill-box > span:nth-child(2) {
+        float: right;
+        position: relative;
+        top: -20px;
+        right: -30px;
+    }
+}
+@media (max-width: 500px) {
+    .skill-box > span:nth-child(2) {
+        float: right;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+}
