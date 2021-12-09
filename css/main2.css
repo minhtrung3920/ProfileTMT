@@ -239,8 +239,11 @@ body .section-slide{
     text-align: left;
 }
 .skill-box > span:nth-child(2) {
-    float: right;
-    position: relative;    
+    /* ban đầu */
+    /* float: right;
+    position: relative;     */
+    /* lỗi responsive quá nên mới dùng cách này chữa cháy T.T */
+    margin-left: -120px;
 }
 .skill {
     background: floralwhite;
@@ -281,12 +284,12 @@ body .section-slide{
         margin: 0 155px 0px 0px;
         text-align: left;
     }
-    .skill-box > span:nth-child(2) {
+    /* .skill-box > span:nth-child(2) {
         float: right;
         position: relative;    
         top: -16px;
         right: 15px;
-    }
+    } */
     .skill {
         background: floralwhite;
         padding: 3px;
@@ -302,6 +305,8 @@ body .section-slide{
         border-radius: 5px;
     }
 }
+
+/* 
 @media (min-width: 1200px) {
     .skill-box > span:nth-child(2) {
         float: right;
@@ -330,15 +335,16 @@ body .section-slide{
     .skill-box > span:nth-child(2) {
         float: right;
         position: relative;
-        top: -20px;
-        right: -30px;
+        top: -18px;
+        right: -12px;
     }
 }
-@media (max-width: 500px) {
+@media (min-width: 500px) {
     .skill-box > span:nth-child(2) {
         float: right;
         position: relative;
         top: 0;
         right: 0;
     }
-}
+} 
+*/
